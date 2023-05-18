@@ -1,0 +1,25 @@
+{
+  "name": "koatest",
+  "version": "1.0.0",
+  "description": "Simple Koa Server for testing purporses",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --experimental-specifier-resolution=node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomKein/koatest.git"
+  },
+  "author": "BlackSteel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomKein/koatest/issues"
+  },
+  "homepage": "https://github.com/TomKein/koatest#readme",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "nodemon": "^2.0.22"
+  }
+}
